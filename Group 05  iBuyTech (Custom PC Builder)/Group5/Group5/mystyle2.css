@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.topnav{
+    position: fixed;                        /*navigation bar*/
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    display: flex;
+}
+ 
+ 
+
+.logo img{                 
+    width: 45px;                        /*styling the logo of the website*/
+    height: 45px;
+    margin: 8px 0 5px 8px;
+}
+
+
+.topnav2{         
+    margin: auto;                        /*move the topnav2 list items to the center*/
+}
+.navbar li{   
+    list-style-type: none;
+    display: inline;
+    padding-left: 25px;
+    font-size: larger;
+}
+.navbar li a{
+    text-decoration: none;
+    color: beige;
+    font-family: 'Inter' ,sans-serif;
+        
+}
+ 
+.navbar li a:hover{                         /*when thw mouse hover the color will be changed*/            
+    color: rgb(223, 176, 130);
+}
+
+
+.navbar .search{                             /*styling the search button*/      
+   margin-left: 30px;
+   height: 25px;
+   padding-left: 20px;
+   font-size: 17px;
+   border-radius: 30px;
+   border-color: beige;
+   font-style: italic;
+}
+
+
+footer {                                    /*the footer section*/
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+.footer1 {
+    width: 27%;
+}
+.footer1 a{
+    text-decoration: none;
+    color: rgb(209, 207, 202);
+}
+.footer1 p{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    font-family: 'Inter' , sans-serif;
+}
+
+.footer1 ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer1 li {
+    margin-bottom: 5px;
+}
+
+.links li{
+    display: inline;
+}
+
+.links img{
+    width: 35px;
+    height: 35px;
+    padding: 5px;
+}
+
+.links img:hover{
+    transform: scale(1.2);                   /*when the mouse hover then icon will pop-up*/
+}
+
+a.mail{
+    color: rgb(209, 207, 202); 
+    font-style: italic; 
+    text-decoration: none; 
+    font-size: 17px;
+}
+

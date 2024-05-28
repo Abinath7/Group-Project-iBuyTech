@@ -1,0 +1,182 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    background-image: url("images2/lap.avif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+   }
+
+   /* Add a black background color to the top navigation bar */
+/*navigation bar*/
+
+.topnav{
+  background-color: rgb(0, 0, 0);
+  width: auto;
+  display: flex;
+}
+
+.logo img{                  /*styling the logo of the website*/
+  width: 45px;
+  height: 45px;
+  margin: 8px 0 5px 8px;
+}
+
+.topnav2{          /*move the topnav2 list items to the center*/
+  margin: auto;
+}
+.navbar li{   
+  list-style-type: none;
+  display: inline;
+  padding-left: 25px;
+  font-size: larger;
+}
+.navbar li a{
+  text-decoration: none;
+  color: beige;
+  font-family: 'Inter' ,sans-serif;
+      
+}
+.navbar li a:hover{                /*when thw mouse hover the color will be changed*/
+  color: rgb(223, 176, 130);
+}
+.navbar .search{                /*styling the search button*/
+ margin-left: 30px;
+ height: 25px;
+ padding-left: 20px;
+ font-size: 17px;
+ border-radius: 30px;
+ border-color: beige;
+ font-style: italic;
+}
+.topnav3 img{
+  float: left;
+  width: 40px;
+  height: 40px;
+  margin:10px 10px 10px 10px ;
+}
+
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+
+  main{
+    display: flex;
+    flex-direction: row;
+}
+.box h1{
+  margin-bottom: 20px;
+  color: rgba(46, 46, 45, 0.97);
+}
+.box p{
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight:lighter;
+
+}
+
+.box{
+    width:600px;
+    height:300px;
+    display: flex;
+    flex-direction: column;
+    background-color:rgba(128, 128, 128, 0.694);
+    color:rgb(233, 230, 230);
+    padding: 2em;
+    margin: 2em;
+    border-radius: 10px;
+    justify-content: center;
+    box-sizing: border-box;
+  
+}
+
+button{
+    background-color:rgba(0, 0, 0, 0.171);
+    border-radius:10px;
+    padding: 1em;
+    color:white;
+    font-weight: bold;
+}
+
+button:hover{
+  background-color: #33333392;
+  color: cornsilk;
+}
+
+div.pid1{
+  margin: 20px 70px 20px 70px;
+  display:flex;
+
+}
+
+
+div.pid1 p{
+  width:600px;
+  color: floralwhite;
+  font-weight: lighter;
+  padding-right: 100px;
+}
+
+
+
+/*the footer section*/
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+.column {
+  width: 27%;
+}
+.column a{
+  text-decoration: none;
+  color: rgb(209, 207, 202);
+}
+.column p{
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  font-family: 'Inter' , sans-serif;
+}
+
+.column ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.column li {
+  margin-bottom: 5px;
+}
+
+.links li{
+  display: inline;
+}
+
+.links img{
+  width: 35px;
+  height: 35px;
+  padding: 5px;
+}
+
+.links img:hover{
+  transform: scale(1.2);  /*when the mouse hover then icon will pop-up*/
+}
+
+a.mail{
+  color: rgb(209, 207, 202); 
+  font-style: italic; 
+  text-decoration: none; 
+  font-size: 17px;
+}

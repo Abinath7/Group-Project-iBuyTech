@@ -1,0 +1,206 @@
+   /*navigation bar*/
+
+   .topnav{
+    background-color: rgb(0, 0, 0);
+    width: auto;
+    display: flex;
+  }
+  
+  .logo img{                  /*styling the logo of the website*/
+    width: 45px;
+    height: 45px;
+    margin: 8px 0 5px 8px;
+  }
+  
+  .topnav2{          /*move the topnav2 list items to the center*/
+    margin: auto;
+  }
+  .navbar li{   
+    list-style-type: none;
+    display: inline;
+    padding-left: 25px;
+    font-size: larger;
+  }
+  .navbar li a{
+    text-decoration: none;
+    color: beige;
+    font-family: 'Inter' ,sans-serif;
+        
+  }
+  .navbar li a:hover{                /*when thw mouse hover the color will be changed*/
+    color: rgb(223, 176, 130);
+  }
+  .navbar .search{                /*styling the search button*/
+   margin-left: 30px;
+   height: 25px;
+   padding-left: 20px;
+   font-size: 17px;
+   border-radius: 30px;
+   border-color: beige;
+   font-style: italic;
+  }
+  .topnav3 img{
+    float: left;
+    width: 40px;
+    height: 40px;
+    margin:10px 10px 10px 10px ;
+  }
+ 
+
+
+  
+  
+    
+  
+  .image{
+    background-color:rgb(104, 99, 99);
+  }
+  
+  
+
+  table
+  {
+      border: 20px solid rgb(139, 127, 127) ;
+      border-collapse:collapse;
+      width:100%;
+  }
+
+  th
+  {
+      border:10px solid rgb(22, 21, 21);
+      text-align: center;
+      padding:10px;
+      font-size: 25px;
+  }
+
+  tr
+  {
+      background-color: rgb(104, 99, 99);
+      font-size:30px;
+  }
+  
+  h1 
+  {
+      text-align: center;
+      font-size: 30px;
+      color: beige;
+      background-color:rgb(54, 54, 117);
+      margin-top:0px;
+    
+  }    
+  
+  
+
+
+  
+  
+  .para  {
+    background-image: url("pc-builds.jpg");
+    background-repeat: no-repeat;
+    background-color:white;
+    background-position: center;
+    background-size:600px;
+  }
+  .para1{
+    text-align:center;
+   text-decoration: underline;
+    
+  }
+  
+  
+
+
+
+.about1 h1{
+  background-color:white;
+  color:black;
+  font-weight: bold;
+}
+.about2{
+  background-color:white;
+  color:black;
+  font-family: 'Open Sans', sans-serif; /* Replace with your preferred font */
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: justify;
+  text-indent: 3em;
+  color: #333; /* Dark grey color */
+  margin-bottom: 30px;
+  padding:5px 250px 5px 250px;
+  
+}
+.highlight1 {
+  font-weight: bold;
+  color: #160c9c; /* blue color */
+  text-transform: uppercase; /* Make the text uppercase for better visibility */
+  text-decoration: underline; /* Add an underline for emphasis */
+}
+.highlight2 {
+  font-weight: bold;  
+  color:black;
+  text-decoration:underline;
+  
+}
+/*the footer section*/
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  
+}
+
+.column {
+  width: 30%;
+  font-size:20px;
+
+}
+.column a{
+  text-decoration: none;
+  color: rgb(209, 207, 202);
+}
+.column p{
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  font-family: 'Inter' , sans-serif;
+}
+
+.column ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.column li {
+  margin-bottom: 5px;
+}
+
+.links li{
+  display: inline;
+}
+
+.links img{
+  width: 35px;
+  height: 35px;
+  padding: 5px;
+}
+
+.links img:hover{
+  transform: scale(1.2);  /*when the mouse hover then icon will pop-up*/
+}
+
+a.mail{
+  color: rgb(209, 207, 202); 
+  font-style: italic; 
+  text-decoration: none; 
+  font-size: 17px;
+}
+
+  
+  
+
+ 
+
+  
